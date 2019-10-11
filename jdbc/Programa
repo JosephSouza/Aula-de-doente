@@ -1,0 +1,11 @@
+package jdbc;
+
+
+public class Programa {
+
+
+	public static void main(String[] args) {
+		Conexao.receberConexao();
+	}
+
+}
