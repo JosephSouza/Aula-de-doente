@@ -1,11 +1,17 @@
-package jdbc;
-
+package asd;
 
 public class Programa {
 
-
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		Conexao.receberConexao();
+	 Usuario usuario = new Usuario();
+	 usuario.setNome("Carlos");
+	 usuario.setLogin("Carlos");
+	 usuario.setSenha("Carlos");
+	 UsuarioAbc usu = new UsuarioAbc();
+	 usu.cadastrar(usuario);
 	}
 
 }
